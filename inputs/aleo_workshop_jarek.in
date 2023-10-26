@@ -1,0 +1,44 @@
+// The program input for aleo_workshop_jarek/src/main.leo
+
+[mint]
+public amount:u64 = 1u64;
+
+
+[transfer]
+receiver:address = aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel;
+amount:u64 = 100u64;
+input:Token = Token{
+  owner: aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel,
+  balance: 100u64,
+  _nonce:7657219450457780610975850256863818119845701893444355002231211802055091008256group
+};
+
+[transfer_public]
+receiver:address = aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel;
+amount:u64 = 100u64;
+
+[transfer_private_to_public]
+receiver:address = aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel;
+amount:u64 = 100u64;
+input:Token = Token{
+  owner: aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel,
+  balance: 100u64,
+  _nonce:7657219450457780610975850256863818119845701893444355002231211802055091008256group
+};
+
+[transfer_public_to_private]
+receiver:address = aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel;
+amount:u64 = 100u64;
+
+[join]
+token:Token = Token{
+  owner: aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel,
+  balance: 100u64,
+  _nonce:7657219450457780610975850256863818119845701893444355002231211802055091008256group
+};
+token_1:Token = Token{
+  owner: aleo1l0p4xjnjnsknu2nv08qfmgah7lw4ff8rl9n8a9df0zajua0edvgsn4jxel,
+  balance: 100u64,
+  _nonce:7657219450457780610975850256863818119845701893444355002231211802055091008256group
+};
+
